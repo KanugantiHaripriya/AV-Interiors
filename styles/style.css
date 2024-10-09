@@ -1,0 +1,211 @@
+.head1{
+  background-color: rgb(241, 241, 241);  
+}
+.head2{
+  width:100%;
+  background:linear-gradient(rgba(195, 184, 184, 0.3),rgba(182, 137, 137, 0.4));
+  padding: 1% 1% 1% 1% ;
+}
+.head2 h1{ /* Text color for the header */
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 400%;
+  background:none;
+  color:rgb(101, 101, 101);
+  text-align: center;
+}
+.head2 h2{
+  background:none;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width:50%;
+  font-size: 250%;
+  color:rgb(101, 101, 101);
+  margin-left: 25%;
+  text-align: center;
+
+}
+body {
+  background-color: rgb(241, 241, 241);/* Light gray background color for the page */
+}
+
+.icon {
+  margin-right: 8px;
+  color:rgb(106, 103, 103); /* Adjust spacing between icon and text */
+}
+.navi{
+  float:left;
+  width:100%;
+  padding:2% 0% 2% 0%;
+  font-size: 145%;
+  /*padding-top: 1%;*/
+  background:linear-gradient(rgba(132, 131, 131, 0.4),rgba(104, 103, 103, 0.4));
+  color:white;
+}
+.navi ul{
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 2%;
+
+}
+.navi li{
+  display:inline;
+  margin: 0% 5% 0% 0%;
+}
+
+a:hover {
+  color: #ffd700; /* Change text color on hover */
+}
+footer {
+  background-color: #aaa0a0;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #4f4444;
+  font-size: 25px;
+}
+.hero h2 {
+  color: #a70e0e;
+  font-size: 46px;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+
+.hero p {
+  color: #201453;
+  font-size: 18px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 36px;
+}
+
+.hero .btn {
+  background-color: #7a441a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 45%;
+  text-align: center;
+}
+
+.hero .btn:hover {
+  background-color: #ff8f00;
+  text-align: center;
+}
+.hero{
+  background:linear-gradient(rgba(250, 236, 197, 0.4),rgba(245, 218, 131, 0.4));
+  padding:8% 0%  4% 0%;
+}
+#contact {
+  background-color: #ede36f;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color:#ff7474
+}
+
+#contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#contact li {
+  margin-bottom: 5px;
+  color: #131313;
+  text-align: center;
+}
+
+#contact li:before {
+  content: "\2022";
+  color: #555;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.main1{
+  width:100%;
+}
+.part-1 h2{
+  text-align: center;
+}
+  .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 33.3%;
+        padding: 5px;
+        text-align: center;
+        font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(56, 56, 94);
+  font-size: 130%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .heading h1{
+      text-align: center;
+      font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(56, 56, 94);
+  font-size: 300%;
+    }
+
+.p1{
+
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(56, 56, 94);
+  font-size: 180%;
+}
+
+@media screen and (max-width: 768px) {
+  .head2 {
+      top: 20%;
+  }
+  .navi ul li {
+      margin-right: 10px;
+  }
+  .column {
+      flex: 50%;
+  }
+}

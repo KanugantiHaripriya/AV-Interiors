@@ -1,0 +1,167 @@
+body{
+    background:linear-gradient(rgba(245, 242, 242, 0.2),rgba(244, 241, 241, 0.4)),url('../images/Modern\ Kitchen\,\ Candi\ \ Pradipta\ Abiseka.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding:2.5% 0% 2.5% 0%;
+    width:100%
+}
+header {
+    background-color: none;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    font-weight: 400;
+  font-size: 1em;
+    line-height: 1.4;
+    font-family: "Great Vibes", cursive;
+  color:#193467;
+  font-size: 465%;
+}
+.section1, .section2, .section3 {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color:none;
+}
+.section2 ul li{
+    font-size: 200%;
+}
+.section3 ul li{
+    font-size: 200%;
+}
+
+/* Styling for headings */
+h2 {
+  font-weight: 400;
+  font-size: 350%;
+    line-height: 1.4;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:black
+
+}
+
+
+/* Styling for paragraphs */
+p {
+    color: black;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+}
+p:hover{
+  color: whitesmoke;
+}
+/* Styling for lists */
+.section2 ul {
+  border: 1px solid rgb(239, 153, 153);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+  padding: 40px;
+}
+.section3 ul{
+  border: 1px solid rgb(239, 153, 153);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+  padding: 40px;
+}
+
+.section2:hover {
+  background-color: rgba(220, 50, 50, 0.1); /* Light background color on hover */
+  border-color: rgb(90, 39, 39); /* Change border color on hover */
+}
+
+.section3:hover {
+  background-color: rgba(220, 50, 50, 0.1); /* Light background color on hover */
+  border-color: rgb(90, 39, 39); /* Change border color on hover */
+}
+.section2 .section3{
+  max-width: 1800px; /* Adjust the value as needed */
+}
+
+.icon {
+  margin-right: 8px;
+  color:rgb(106, 103, 103); /* Adjust spacing between icon and text */
+}
+
+.section2 ul li:hover{
+  color: rgb(159, 16, 16)
+}
+.section3 ul li:hover{
+  color: whitesmoke
+}
+
+.navi{
+  float:left;
+  width:100%;
+  padding-top: 1%;
+  background:linear-gradient(rgba(228, 227, 227, 0.4),rgba(104, 103, 103, 0.4));
+  color:rgb(243, 238, 238);
+}
+.navi ul{
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 2%;
+
+}
+.navi li{
+  display:inline;
+  margin: 0% 5% 0% 0%;
+}
+
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+footer p{
+  padding-top: 10px;
+}
+.navi ul li a {
+  color: rgb(242, 239, 239);
+}
+
+footer {
+  background-color: #070606;
+  padding: 10px;
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 14px;
+  color: #dcbdbd;
+  font-size: 25px;
+}
+
+h2:hover{
+  color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+  .head2 {
+      top: 20%;
+  }
+  .navi ul li {
+      margin-right: 10px;
+  }
+  .column {
+      flex: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Add your responsive styles here */
+  body {
+    font-size: 14px;
+  }
+}
+
+/* For screens 768px and larger */
+@media screen and (min-width: 768px) {
+  /* Add your responsive styles here */
+  body {
+    font-size: 16px;
+  }
+}
